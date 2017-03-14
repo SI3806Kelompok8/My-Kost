@@ -1,0 +1,15 @@
+<footer id="msf"> 
+            <div class="wrapper"> 
+                <ul id="lets-be-social"> 
+                    <li> 
+                        <a href="https://twitter.com/" rel="external" target="_blank" title="Sign in with Twitter">Twitter.</a> 
+                    </li> 
+                    <li> 
+                        <a href="https://www.facebook.com" rel="external" target="_blank" title="Sign in with Facebook">Facebook.</a> 
+                    </li> 
+                    <li> 
+                        <a href="http://www.pinterest.com" rel="external" target="_blank" title="Sign in with Pinterest">Pinterest.</a> 
+                    </li> 
+                </ul> 
+            </div> 
+        </footer>
