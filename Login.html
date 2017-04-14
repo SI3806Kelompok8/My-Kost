@@ -1,5 +1,6 @@
 	<html>
 	<script src="https://use.fontawesome.com/1921e4fd5f.js"></script>
+
 	<head>
 		<title> </title>
 		<link rel="stylesheet" type="text/css" href="css/Login.css"></link>
@@ -7,15 +8,20 @@
 	</head>
 	<body>
 		<div class = "login">
-			<img src="images/MyKos.png"
-			<form>
+			<img src="images/MyKos.png">
+			<form method="post" action="login.php">
 				<div class = "form-input">
-					<input type ="text" name ="username" placeholder ="Enter Username">
+					<input type ="text" name ="user" placeholder ="Enter Username">
 				</div>
 				<div class = "form-input">
-					<input type ="password" name ="password" placeholder="Enter Password">
+					<input type ="password" name ="pass" placeholder="Enter Password">
 				</div>
 				<a href="indexLogin.html"><input type="submit" name="submit" value="LOGIN" class="btn-login"></a>
+                <div>
+                	<td colspan="2">
+					<font size="2">Tidak ada akun?<a href="register.html">Daftar</a></font>
+					</td>
+                </div>
 			</form>
 		</div>
 	</body>
